@@ -1,5 +1,4 @@
-Protocol
-============
+# Mainstay Protocol
 
 The MainStay protocol employs the underlying concept of a *staychain* of linked transactions within the Bitcoin blockchain,
 where all transactions in the staychain conform to having only a a single output,
@@ -34,8 +33,7 @@ the mechanism of propagating the staychain must be robust and reliable: if the
 staychain fails to propagate or is corrupted (e.g. having multiple outputs) then new sidechain state changes (i.e. blocks)
 will lose the guarantee of immutability - however it will always remain *fail secure* (i.e. previously reinforced transactions are provably unique without trust).
 
-Single-key protocol
---------------------------
+## Single-key protocol
 
 In the following general description of the protocol, we assume a single Mainstay key and signing entity. The
 protocol is also presented in relation to Bitcoin as the proof-of-work mainchain, but it is in
