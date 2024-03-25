@@ -18,9 +18,9 @@ This documentation describes the theory and implementation of the Mainstay proto
 
 ### Contents
 
-[Background] (mainstay-background.md)
-[Protocol] (mainstay-protocol.md)
-[Connector Service] (mainstay-con.md)
-[API documentation] (mainstay-api.md)
-[Python client] (mainstay-client.md)
-[Use cases] (mainstay-use.md)
+[Background](mainstay-background.md)
+[Protocol](mainstay-protocol.md)
+[Connector Service](mainstay-con.md)
+[API documentation](mainstay-api.md)
+[Python client](mainstay-client.md)
+[Use cases](mainstay-use.md)
