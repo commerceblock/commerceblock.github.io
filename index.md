@@ -16,14 +16,11 @@ proof-of-work system (i.e. Bitcoin) and requires no cooperation of miners (unlik
 
 This documentation describes the theory and implementation of the Mainstay protocol, as well as an explanation of the background, motivation and how the protocol differs from trustless timestamping (i.e. Proof of *Existence* - PoE). This documentation also includes detailed instructions on using CommerceBlock's Mainstay implementations and tooling, CommerceBlock's Mainstay service and API as well as step-by-step guides for service integration. 
 
-.. note::
-	All the Mainstay tooling and software is released under the terms of the MIT license.
-
 ### Contents
 
-[Background] (/mainstay-background.html)
-[Protocol] (/mainstay-protocol.html)
-[Connector Service] (/mainstay-con.html)
-[API documentation] (/mainstay-api.html)
-[Python client] (/mainstay-client.html)
-[Use cases] (/mainstay-use.html)
+[Background] (mainstay-background.html)
+[Protocol] (mainstay-protocol.html)
+[Connector Service] (mainstay-con.html)
+[API documentation] (mainstay-api.html)
+[Python client] (mainstay-client.html)
+[Use cases] (mainstay-use.html)
