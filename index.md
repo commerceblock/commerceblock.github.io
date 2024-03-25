@@ -1,4 +1,4 @@
-# CommerceBlock Documentation
+# Documentation
 
 Commerceblock provides Bitcoin infrastructure and services. 
 
@@ -18,9 +18,9 @@ This documentation describes the theory and implementation of the Mainstay proto
 
 ### Contents
 
-[Background] (mainstay-background.html)
-[Protocol] (mainstay-protocol.html)
-[Connector Service] (mainstay-con.html)
-[API documentation] (mainstay-api.html)
-[Python client] (mainstay-client.html)
-[Use cases] (mainstay-use.html)
+[Background] (mainstay-background.md)
+[Protocol] (mainstay-protocol.md)
+[Connector Service] (mainstay-con.md)
+[API documentation] (mainstay-api.md)
+[Python client] (mainstay-client.md)
+[Use cases] (mainstay-use.md)
