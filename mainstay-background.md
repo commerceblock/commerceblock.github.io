@@ -53,16 +53,16 @@ Bitcoin’s proof-of-work.
 
 It was recognised early in Bitcoin’s history that the blockchain could be utilised to timestamp arbitrary data in a completely trustless and decentralised way. By embedding a cryptographic commitment to data into a valid transaction, which was then
 mined into the blockchain, it was possible to prove that the data existed at a particular time. To accomodate time-stamping (and other meta-protocols) in a more efficient way, a new prunable transaction output type was
-introduced via a new OP code: ``OP_RETURN``. This allowed up to 40/80 bytes to be
+introduced via a new OP code: `OP_RETURN`. This allowed up to 40/80 bytes to be
 included in an output which was not treated as a spendable output in the UTXO
-set. The use of ``OP_RETURN`` however has significant downsides: it bloats transactions (resulting in
+set. The use of `OP_RETURN` however has significant downsides: it bloats transactions (resulting in
 higher transaction fees), it offers no privacy (data is included in plain text directly into the
 transaction) and transactions including them may be rejected (censored) by mining
 pools. 
 
-There are many services that employ ``OP_RETURN`` outputs to time-stamp single files into the
+There are many services that employ `OP_RETURN` outputs to time-stamp single files into the
 Bitcoin blockchain and there are protocols that can include a much more extensive set of data into a
-single commitment, such as `OpenTimestamps <https://opentimestamps.org>`_ which collects submitted commitments via a calendar server and compresses them into Merkle Tree, and then time-stamps the Merkle
+single commitment, such as [OpenTimestamps](https://opentimestamps.org>) which collects submitted commitments via a calendar server and compresses them into Merkle Tree, and then time-stamps the Merkle
 Root in a transaction. This type of time-stamping is however fundamentally limited in the type of immutability it
 can provide. A timestamp can only prove that a particular piece of information *existed* at
 a certain point in time, not that the information has any other validity or *uniqueness*. A
@@ -90,5 +90,5 @@ federation with the commitment authority.
 The MainStay protocol is designed to eliminate the requirement for any type of trust in creating a cryptographic proof of immutable sequence (PoIS) by
 initiating a *fan-in-only* transaction *staychain* within the Bitcoin blockchain that is uniquely
 committed to the genesis block of a sidechain, as described in the next section. The
-protocol does not employ OP_RETURN outputs, providing additional privacy, censorship
+protocol does not employ `OP_RETURN` outputs, providing additional privacy, censorship
 resistance and efficiency. 
