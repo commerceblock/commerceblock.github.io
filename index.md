@@ -24,8 +24,7 @@ This documentation describes the theory and implementation of the Mainstay proto
 
 [Connector Service](mainstay-con.html)
 
-[API documentation](mainstay-api.html)
+[API documentation](https://github.com/commerceblock/mainstay-mvc/blob/develop/doc/mainstay_api.md)
 
-[Python client](mainstay-client.html)
+[Python client](https://github.com/commerceblock/pymainstay)
 
-[Use cases](mainstay-use.html)
